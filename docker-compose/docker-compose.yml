@@ -29,8 +29,8 @@ services:
     <<: *vllm-common
     container_name: apj_00
     volumes:
-      - /home/amd/seungrok/APJ_media_workshop/amd-gpu-workshops/docker-compose/00:/workspace
-      - /home/amd/models:/models
+      - /home/seungrok@amd.com/amd-gpu-workshops/docker-compose/00:/workspace
+      - /home/seungrok@amd.com/models:/models
     environment:
       <<: *vllm-env
       HIP_VISIBLE_DEVICES: "0"
@@ -41,8 +41,8 @@ services:
     <<: *vllm-common
     container_name: apj_01
     volumes:
-      - /home/amd/seungrok/APJ_media_workshop/amd-gpu-workshops/docker-compose/01:/workspace
-      - /home/amd/models:/models
+      - /home/seungrok@amd.com/amd-gpu-workshops/docker-compose/01:/workspace
+      - /home/seungrok@amd.com/models:/models
     environment:
       <<: *vllm-env
       HIP_VISIBLE_DEVICES: "1"
@@ -53,8 +53,8 @@ services:
     <<: *vllm-common
     container_name: apj_02
     volumes:
-      - /home/amd/seungrok/APJ_media_workshop/amd-gpu-workshops/docker-compose/02:/workspace
-      - /home/amd/models:/models
+      - /home/seungrok@amd.com/amd-gpu-workshops/docker-compose/02:/workspace
+      - /home/seungrok@amd.com/models:/models
     environment:
       <<: *vllm-env
       HIP_VISIBLE_DEVICES: "2"
@@ -65,8 +65,8 @@ services:
     <<: *vllm-common
     container_name: apj_03
     volumes:
-      - /home/amd/seungrok/APJ_media_workshop/amd-gpu-workshops/docker-compose/03:/workspace
-      - /home/amd/models:/models
+      - /home/seungrok@amd.com/amd-gpu-workshops/docker-compose/03:/workspace
+      - /home/seungrok@amd.com/models:/models
     environment:
       <<: *vllm-env
       HIP_VISIBLE_DEVICES: "3"
@@ -77,8 +77,8 @@ services:
     <<: *vllm-common
     container_name: apj_04
     volumes:
-      - /home/amd/seungrok/APJ_media_workshop/amd-gpu-workshops/docker-compose/04:/workspace
-      - /home/amd/models:/models
+      - /home/seungrok@amd.com/amd-gpu-workshops/docker-compose/04:/workspace
+      - /home/seungrok@amd.com/models:/models
     environment:
       <<: *vllm-env
       HIP_VISIBLE_DEVICES: "4"
@@ -89,8 +89,8 @@ services:
     <<: *vllm-common
     container_name: apj_05
     volumes:
-      - /home/amd/seungrok/APJ_media_workshop/amd-gpu-workshops/docker-compose/05:/workspace
-      - /home/amd/models:/models
+      - /home/seungrok@amd.com/amd-gpu-workshops/docker-compose/05:/workspace
+      - /home/seungrok@amd.com/models:/models
     environment:
       <<: *vllm-env
       HIP_VISIBLE_DEVICES: "5"
@@ -101,8 +101,8 @@ services:
     <<: *vllm-common
     container_name: apj_06
     volumes:
-      - /home/amd/seungrok/APJ_media_workshop/amd-gpu-workshops/docker-compose/06:/workspace
-      - /home/amd/models:/models
+      - /home/seungrok@amd.com/amd-gpu-workshops/docker-compose/06:/workspace
+      - /home/seungrok@amd.com/models:/models
     environment:
       <<: *vllm-env
       HIP_VISIBLE_DEVICES: "6"
@@ -113,8 +113,8 @@ services:
     <<: *vllm-common
     container_name: apj_07
     volumes:
-      - /home/amd/seungrok/APJ_media_workshop/amd-gpu-workshops/docker-compose/07:/workspace
-      - /home/amd/models:/models
+      - /home/seungrok@amd.com/amd-gpu-workshops/docker-compose/07:/workspace
+      - /home/seungrok@amd.com/models:/models
     environment:
       <<: *vllm-env
       HIP_VISIBLE_DEVICES: "7"
