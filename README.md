@@ -7,7 +7,7 @@ Welcome to the AMD GPU Workshops repository! This repository hosts multiple work
 
 | Workshop Title                                      | Description                                               | Notebook Link                             |
 |-----------------------------------------------------|-----------------------------------------------------------|-------------------------------------------|
-| **DeepSeek Deployment with AMD GPUs (SGLang + PD Disaggregation)** | Serving DeepSeek with SGLang — from a single server to a disaggregated Prefill/Decode "kitchen brigade" — plus Open WebUI, CodeGPT, and a web agent | [deepseek_sglang.ipynb](notebooks/deepseek_sglang.ipynb) |
+| **DeepSeek Deployment with AMD GPUs (SGLang + PD Disaggregation)** | Serving DeepSeek with SGLang — from a single server to a disaggregated Prefill/Decode deployment — plus Open WebUI, CodeGPT, and a web agent | [deepseek_sglang.ipynb](notebooks/deepseek_sglang.ipynb) |
 
 (More workshops will be added soon!)
 
