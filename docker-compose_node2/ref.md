@@ -1,2 +1,0 @@
-https://discourse.jupyter.org/t/running-jupyter-server-from-a-docker-container/23537/2
-docker run -it --network=host --device=/dev/kfd --device=/dev/dri --ipc=host --shm-size 32G --group-add video --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -v /home/amd/models:/models -v $(pwd)/01/:/workspace -w /workspace --name 01 --entrypoint /bin/bash rocm/pytorch-private:vllm_v0.19.0_jupyternb_apj_media
